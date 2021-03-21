@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rufina', serif;
+}
+body{
+   background-color:  #BFD1D9;
+}
+header{
+    width: 100vw;
+    height: 50vh;
+    background-image: linear-gradient(#D2A295, #BFD1D9);
+}
+.header-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-title{
+    width: 60rem;
+    height: 5rem;
+    font-size: 4rem;
+    color: #F7F7F7;
+}
+.header-paragraph{
+    width: 60rem;
+    height: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #9D7F7F;
+}
+.main-section{
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+}
+.main-section-title{
+    font-size: 2rem;
+    color: #090D06;
+}
+.main-content{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.main-box{
+    width: 50%;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-subtitles{
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+.main-subtitles-description{
+    width: 30rem;
+    height: 5.5rem;
+    font-size: 1.5rem;
+}
+.main-elipse{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
